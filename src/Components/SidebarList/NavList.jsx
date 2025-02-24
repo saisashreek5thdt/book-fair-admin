@@ -203,6 +203,18 @@ export default function NavList() {
               <span>Socials</span>
             </a>
           </li>
+          <li className="sidebar-list">
+            {/* <i className="fa-solid fa-thumbtack"></i> */}
+            <a className="sidebar-link sidebar-title link-nav" href="#">
+              <svg className="stroke-icon">
+                <use href="assets/svg/icon-sprite.svg#stroke-task"></use>
+              </svg>
+              <svg className="fill-icon">
+                <use href="assets/svg/icon-sprite.svg#fill-task"></use>
+              </svg>
+              <span>User Access</span>
+            </a>
+          </li>
         </ul>
       </div>
     </>
