@@ -2,6 +2,22 @@ import { useEffect } from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Login from "./Login";
 import { Dashboard } from "./Components/index";
+import {
+  AboutEvent,
+  Banner,
+  Events,
+  Faqs,
+  Widget,
+  Gallery,
+  Highlights,
+  Members,
+  Partners,
+  Publishers,
+  Registration,
+  Socials,
+  UserAccess,
+  Speakers
+} from "./Components/Pages/index";
 
 function App() {
   useEffect(() => {
@@ -87,6 +103,62 @@ function App() {
       path: "/dashboard",
       element: <Dashboard />,
     },
+    {
+      path: "/about",
+      element: <AboutEvent />,
+    },
+    {
+      path: "/banner",
+      element: <Banner />,
+    },
+    {
+      path: "/events",
+      element: <Events />,
+    },
+    {
+      path: "/faqs",
+      element: <Faqs />,
+    },
+    {
+      path: "/widget",
+      element: <Widget />,
+    },
+    {
+      path: "/gallery",
+      element: <Gallery />
+    },
+    {
+      path: "/highlights",
+      element: <Highlights />
+    },
+    {
+      path: "/members",
+      element: <Members />
+    },
+    {
+      path: "/partners",
+      element: <Partners />
+    },
+    {
+      path: "/publishers",
+      element: <Publishers />
+    },
+    {
+      path: "/registration",
+      element: <Registration />
+    },
+    {
+      path: "/socials",
+      element: <Socials />
+    },
+    {
+      path: "/userAccess",
+      element: <UserAccess />
+    },
+    {
+      path: "/speakers",
+      element: <Speakers />
+    }
   ]);
 
   return (

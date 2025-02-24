@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { NavLogo } from "../index";
 
 export default function NavList() {
@@ -19,7 +20,11 @@ export default function NavList() {
           <li className="sidebar-list">
             {/* <i className="fa-solid fa-thumbtack"></i> */}
             {/* <label className="badge badge-light-primary">13</label> */}
-            <a className="sidebar-link sidebar-title link-nav" href="#">
+            <Link
+              className="sidebar-link sidebar-title link-nav"
+              to="/"
+              target="_parent"
+            >
               <svg className="stroke-icon">
                 <use href="assets/svg/icon-sprite.svg#stroke-home"></use>
               </svg>
@@ -27,11 +32,15 @@ export default function NavList() {
                 <use href="assets/svg/icon-sprite.svg#fill-home"></use>
               </svg>
               <span className="lan-3">Dashboard </span>
-            </a>
+            </Link>
           </li>
           <li className="sidebar-list">
             {/* <i className="fa-solid fa-thumbtack"></i> */}
-            <a className="sidebar-link sidebar-title link-nav" href="#">
+            <Link
+              className="sidebar-link sidebar-title link-nav"
+              to="/widget"
+              target="_parent"
+            >
               <svg className="stroke-icon">
                 <use href="assets/svg/icon-sprite.svg#stroke-widget"></use>
               </svg>
@@ -39,11 +48,15 @@ export default function NavList() {
                 <use href="assets/svg/icon-sprite.svg#fill-widget"></use>
               </svg>
               <span className="lan-6">Widgets</span>
-            </a>
+            </Link>
           </li>
           <li className="sidebar-list">
             {/* <i className="fa-solid fa-thumbtack"></i> */}
-            <a className="sidebar-link sidebar-title link-nav" href="#">
+            <Link
+              className="sidebar-link sidebar-title link-nav"
+              to="/"
+              target="_parentLink"
+            >
               <svg className="stroke-icon">
                 <use href="assets/svg/icon-sprite.svg#stroke-layout"></use>
               </svg>
@@ -51,7 +64,7 @@ export default function NavList() {
                 <use href="assets/svg/icon-sprite.svg#fill-layout"></use>
               </svg>
               <span className="lan-7">Active Links</span>
-            </a>
+            </Link>
           </li>
           <li className="sidebar-main-title">
             <div>
@@ -60,7 +73,11 @@ export default function NavList() {
           </li>
           <li className="sidebar-list">
             {/* <i className="fa-solid fa-thumbtack"> </i> */}
-            <a className="sidebar-link sidebar-title link-nav" href="#">
+            <Link
+              className="sidebar-link sidebar-title link-nav"
+              to="/banner"
+              target="_parent"
+            >
               <svg className="stroke-icon">
                 <use href="assets/svg/icon-sprite.svg#stroke-project"></use>
               </svg>
@@ -68,11 +85,15 @@ export default function NavList() {
                 <use href="assets/svg/icon-sprite.svg#fill-project"></use>
               </svg>
               <span>Slider / Banner</span>
-            </a>
+            </Link>
           </li>
           <li className="sidebar-list">
             {/* <i className="fa-solid fa-thumbtack"></i> */}
-            <a className="sidebar-link sidebar-title link-nav" href="#">
+            <Link
+              className="sidebar-link sidebar-title link-nav"
+              to="/about"
+              target="_parent"
+            >
               <svg className="stroke-icon">
                 <use href="assets/svg/icon-sprite.svg#stroke-file"></use>
               </svg>
@@ -80,11 +101,15 @@ export default function NavList() {
                 <use href="assets/svg/icon-sprite.svg#fill-file"></use>
               </svg>
               <span>About Event</span>
-            </a>
+            </Link>
           </li>
           <li className="sidebar-list">
             {/* <i className="fa-solid fa-thumbtack"> </i> */}
-            <a className="sidebar-link sidebar-title link-nav" href="#">
+            <Link
+              className="sidebar-link sidebar-title link-nav"
+              to="/highlights"
+              target="_parent"
+            >
               <svg className="stroke-icon">
                 <use href="assets/svg/icon-sprite.svg#stroke-board"></use>
               </svg>
@@ -92,11 +117,15 @@ export default function NavList() {
                 <use href="assets/svg/icon-sprite.svg#fill-board"></use>
               </svg>
               <span>High Lights</span>
-            </a>
+            </Link>
           </li>
           <li className="sidebar-list">
             {/* <i className="fa-solid fa-thumbtack"></i> */}
-            <a className="sidebar-link sidebar-title link-nav" href="#">
+            <Link
+              className="sidebar-link sidebar-title link-nav"
+              to="/speakers"
+              target="_parent"
+            >
               <svg className="stroke-icon">
                 <use href="assets/svg/icon-sprite.svg#stroke-ecommerce"></use>
               </svg>
@@ -104,11 +133,15 @@ export default function NavList() {
                 <use href="assets/svg/icon-sprite.svg#fill-ecommerce"></use>
               </svg>
               <span>Speakers</span>
-            </a>
+            </Link>
           </li>
           <li className="sidebar-list">
             {/* <i className="fa-solid fa-thumbtack"></i> */}
-            <a className="sidebar-link sidebar-title link-nav" href="#">
+            <Link
+              className="sidebar-link sidebar-title link-nav"
+              to="/publishers"
+              target="_parent"
+            >
               <svg className="stroke-icon">
                 <use href="assets/svg/icon-sprite.svg#stroke-ecommerce"></use>
               </svg>
@@ -116,11 +149,15 @@ export default function NavList() {
                 <use href="assets/svg/icon-sprite.svg#fill-ecommerce"></use>
               </svg>
               <span>Publishers</span>
-            </a>
+            </Link>
           </li>
           <li className="sidebar-list">
             {/* <i className="fa-solid fa-thumbtack"></i> */}
-            <a className="sidebar-link sidebar-title link-nav" href="#">
+            <Link
+              className="sidebar-link sidebar-title link-nav"
+              to="/events"
+              target="_parent"
+            >
               <svg className="stroke-icon">
                 <use href="assets/svg/icon-sprite.svg#stroke-email"></use>
               </svg>
@@ -128,11 +165,15 @@ export default function NavList() {
                 <use href="assets/svg/icon-sprite.svg#fill-email"></use>
               </svg>
               <span>Events</span>
-            </a>
+            </Link>
           </li>
           <li className="sidebar-list">
             {/* <i className="fa-solid fa-thumbtack"></i> */}
-            <a className="sidebar-link sidebar-title link-nav" href="#">
+            <Link
+              className="sidebar-link sidebar-title link-nav"
+              to="/members"
+              target="_parent"
+            >
               <svg className="stroke-icon">
                 <use href="assets/svg/icon-sprite.svg#stroke-chat"></use>
               </svg>
@@ -140,11 +181,15 @@ export default function NavList() {
                 <use href="assets/svg/icon-sprite.svg#fill-chat"></use>
               </svg>
               <span>Executive Members</span>
-            </a>
+            </Link>
           </li>
           <li className="sidebar-list">
             {/* <i className="fa-solid fa-thumbtack"></i> */}
-            <a className="sidebar-link sidebar-title link-nav" href="#">
+            <Link
+              className="sidebar-link sidebar-title link-nav"
+              to="/gallery"
+              target="_parentLink"
+            >
               <svg className="stroke-icon">
                 <use href="assets/svg/icon-sprite.svg#stroke-user"></use>
               </svg>
@@ -152,12 +197,16 @@ export default function NavList() {
                 <use href="assets/svg/icon-sprite.svg#fill-user"></use>
               </svg>
               <span>Gallery</span>
-            </a>
+            </Link>
           </li>
           <li className="sidebar-list">
             {/* <label className="badge badge-light-success">New</label> */}
             {/* <i className="fa-solid fa-thumbtack"></i> */}
-            <a className="sidebar-link sidebar-title link-nav" href="#">
+            <Link
+              className="sidebar-link sidebar-title link-nav"
+              to="/partners"
+              target="_parent"
+            >
               <svg className="stroke-icon">
                 <use href="assets/svg/icon-sprite.svg#stroke-reports"></use>
               </svg>
@@ -165,11 +214,15 @@ export default function NavList() {
                 <use href="assets/svg/icon-sprite.svg#fill-reports"></use>
               </svg>
               <span>Our Partners</span>
-            </a>
+            </Link>
           </li>
           <li className="sidebar-list">
             {/* <i className="fa-solid fa-thumbtack"></i> */}
-            <a className="sidebar-link sidebar-title link-nav" href="#">
+            <Link
+              className="sidebar-link sidebar-title link-nav"
+              to="/faqs"
+              target="_parent"
+            >
               <svg className="stroke-icon">
                 <use href="assets/svg/icon-sprite.svg#stroke-bookmark"></use>
               </svg>
@@ -177,11 +230,15 @@ export default function NavList() {
                 <use href="assets/svg/icon-sprite.svg#fill-bookmark"></use>
               </svg>
               <span>FAQ&apos;s</span>
-            </a>
+            </Link>
           </li>
           <li className="sidebar-list">
             {/* <i className="fa-solid fa-thumbtack"></i> */}
-            <a className="sidebar-link sidebar-title link-nav" href="#">
+            <Link
+              className="sidebar-link sidebar-title link-nav"
+              to="/registration"
+              target="_parent"
+            >
               <svg className="stroke-icon">
                 <use href="assets/svg/icon-sprite.svg#stroke-contact"></use>
               </svg>
@@ -189,11 +246,15 @@ export default function NavList() {
                 <use href="assets/svg/icon-sprite.svg#fill-contact"></use>
               </svg>
               <span>Registration</span>
-            </a>
+            </Link>
           </li>
           <li className="sidebar-list">
             {/* <i className="fa-solid fa-thumbtack"></i> */}
-            <a className="sidebar-link sidebar-title link-nav" href="#">
+            <Link
+              className="sidebar-link sidebar-title link-nav"
+              to="/socials"
+              target="_parent"
+            >
               <svg className="stroke-icon">
                 <use href="assets/svg/icon-sprite.svg#stroke-task"></use>
               </svg>
@@ -201,11 +262,15 @@ export default function NavList() {
                 <use href="assets/svg/icon-sprite.svg#fill-task"></use>
               </svg>
               <span>Socials</span>
-            </a>
+            </Link>
           </li>
           <li className="sidebar-list">
             {/* <i className="fa-solid fa-thumbtack"></i> */}
-            <a className="sidebar-link sidebar-title link-nav" href="#">
+            <Link
+              className="sidebar-link sidebar-title link-nav"
+              to="/userAccess"
+              target="_parent"
+            >
               <svg className="stroke-icon">
                 <use href="assets/svg/icon-sprite.svg#stroke-task"></use>
               </svg>
@@ -213,7 +278,7 @@ export default function NavList() {
                 <use href="assets/svg/icon-sprite.svg#fill-task"></use>
               </svg>
               <span>User Access</span>
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

@@ -1,0 +1,14 @@
+export { default as AboutEvent } from "./About/AboutEvent";
+export { default as Banner } from "./Banner/Banner";
+export { default as Events } from "./Events/Events";
+export { default as Faqs } from "./FAQs/Faqs";
+export { default as Widget } from "./Widgets/Widget";
+export { default as Gallery } from "./Gallery/Gallery";
+export { default as Highlights } from "./Highlights/Highlights";
+export { default as Members } from "./Members/Members";
+export { default as Partners } from "./Partners/Partners";
+export { default as Publishers } from "./Publishers/Publishers";
+export { default as Registration } from "./Registration/Registration";
+export { default as Socials } from "./Socials/Socials";
+export { default as UserAccess } from "./UserAccess/UserAccess";
+export { default as Speakers } from "./Speakers/Speakers";
