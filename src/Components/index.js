@@ -6,3 +6,5 @@ export { default as PageContainer } from "./dashboard/PageContainer";
 
 // Sidebar Component Imports
 export { default as Logo } from "./Logo/Logo";
+export { default as NavLogo } from "./Logo/NavLogo";
+export { default as NavList } from "./SidebarList/NavList";
